@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoBloom Tech Solution | Innovative IT Services</title>
+    <link rel="stylesheet" href="gemini.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><h2>InfoBloom</h2></div>
+        <nav>
+            <ul>
+                <li><a onclick="showPage('home')">Home</a></li>
+                <li><a onclick="showPage('about')">About Us</a></li>
+                <li><a onclick="showPage('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="home" class="page-content active-content">
+            <h1>Expert Tech Solutions for Your Business</h1>
+            <p>Welcome to InfoBloom Tech Solution. We specialize in building expert teams and delivering high-quality digital products.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Web Development</h3>
+                    <p>Modern, responsive websites built with the latest frameworks like React and Laravel.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile solutions for Android and iOS devices.</p>
+                </div>
+                <div class="service-card">
+                    <h3>SEO & Marketing</h3>
+                    <p>Boosting your online presence through data-driven SEO and social media strategies.</p>
+                </div>
+                <div class="service-card">
+                    <h3>IT Training</h3>
+                    <p>Internships and training programs to nurture the next generation of tech talent.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page-content">
+            <h1>About InfoBloom</h1>
+            <p>InfoBloom Tech Solution is a global IT service provider dedicated to digital acceleration. We help businesses navigate technological challenges through expert engineering and strategic roadmapping.</p>
+            <br>
+            <h3>Our Mission</h3>
+            <p>To deliver elegant solutions to complex difficulties by combining deep tech expertise with top-tier talent.</p>
+        </section>
+
+        <section id="contact" class="page-content">
+            <h1>Contact Us</h1>
+            <p>Have a project in mind? Reach out to our team today.</p>
+            <br>
+            <form class="contact-form" onsubmit="handleContact(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="How can we help you?" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 InfoBloom Tech Solution. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="script (1).js"></script>
+
+</body>
+</html>
